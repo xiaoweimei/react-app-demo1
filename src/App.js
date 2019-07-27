@@ -1,6 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
+
 import './App.css';
+
+function sayHi(){
+  alert('你点击我啦')
+}
 
 function App() {
   return (
@@ -18,6 +23,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={function(){alert(123)}}>点我</button>
       </header>
     </div>
   );
