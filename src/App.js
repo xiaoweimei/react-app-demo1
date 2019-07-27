@@ -15,15 +15,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <button onClick={function(){alert(123)}}>点我</button>
+        <button onClick={function(){alert("hello world")}}>点我开启新大门</button>
       </header>
     </div>
   );
